@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Inter', "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    background-color: #c3bebeae;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    text-align: justify;
+}
+.Baotuong{
+    padding: 80px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 120px;
+    background-color: #effbfc;
+    border-radius: 10px;
+}
+.Baotuong-header h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 40px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+}
+.Baotuong-header h1:hover{
+    color: #30aacf;
+}
+.Baotuong-header p{
+    font-style: italic;
+    border-bottom: 3px solid black;
+    padding-bottom: 45px;
+    padding-top: 20px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+h2{
+    font-size: 39.81px;
+    text-transform: capitalize;
+    margin-top: 3px;
+}
+h3{
+    font-size: 33.18px;
+    text-transform: capitalize;
+}
+h2:hover{
+    color: #30aacf;
+}
+h3:hover{
+    color: #30aacf;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.image-caption{
+    text-align: center;
+    font-style: italic;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.image-hang-nga{
+    margin-top: 50px;
+}
+.image-chu-cuoi{
+    margin-top: 50px;
+}
+.chu-cuoi{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 50px;
+    border-top: 3px solid black;
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.name{
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.email{
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.phone{
+    padding: 10px;
+    height: 20px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#comment{
+    padding: 20px;
+    height: 100px;
+    width: 800px;
+    margin-right: 50px;
+    font-family: "Roboto";
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.border-end{
+    width: 50%;
+    margin-top: 100px;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
